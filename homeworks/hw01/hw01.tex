@@ -1,0 +1,130 @@
+\documentclass[12pt]{article}
+
+\include{preamble}
+
+\newtoggle{professormode}
+\toggletrue{professormode} %STUDENTS: DELETE or COMMENT this line
+
+
+
+\title{MATH 340/640 Fall \the\year~ Homework \#1}
+
+\author{Professor Adam Kapelner} %STUDENTS: write your name here
+
+\iftoggle{professormode}{
+\date{Due by email 11:59PM Sunday, September 8, \the\year \\ \vspace{0.5cm} \small (this document last updated \today ~at \currenttime)}
+}
+
+\renewcommand{\abstractname}{Instructions and Philosophy}
+
+\begin{document}
+\maketitle
+
+\iftoggle{professormode}{
+\begin{abstract}
+The path to success in this class is to do many problems. Unlike other courses, exclusively doing reading(s) will not help. Coming to lecture is akin to watching workout videos; thinking about and solving problems on your own is the actual ``working out.''  Feel free to \qu{work out} with others; \textbf{I want you to work on this in groups.}
+
+Reading is still \textit{required}. For this homework set, review Math 241 concerning random variables, support, parameter space, PMF's, CDF's, bernoulli, binomial, geometric. Then read on your own about the negative binomial, convolutions and the multinomial distribution.
+
+The problems below are color coded: \ingreen{green} problems are considered \textit{easy} and marked \qu{[easy]}; \inorange{yellow} problems are considered \textit{intermediate} and marked \qu{[harder]}, \inred{red} problems are considered \textit{difficult} and marked \qu{[difficult]} and \inpurple{purple} problems are extra credit. The \textit{easy} problems are intended to be ``giveaways'' if you went to class. Do as much as you can of the others; I expect you to at least attempt the \textit{difficult} problems. \qu{[MA]} are for those registered for 621 and extra credit otherwise.
+
+This homework is worth 100 points but the point distribution will not be determined until after the due date. See syllabus for the policy on late homework.
+
+Up to 5 points are given as a bonus if the homework is typed using \LaTeX. Links to instaling \LaTeX~and program for compiling \LaTeX~is found on the syllabus. You are encouraged to use \url{overleaf.com}. If you are handing in homework this way, read the comments in the code; there are two lines to comment out and you should replace my name with yours and write your section. The easiest way to use overleaf is to copy the raw text from hwxx.tex and preamble.tex into two new overleaf tex files with the same name. If you are asked to make drawings, you can take a picture of your handwritten drawing and insert them as figures or leave space using the \qu{$\backslash$vspace} command and draw them in after printing or attach them stapled.
+
+The document is available with spaces for you to write your answers. If not using \LaTeX, print this document and write in your answers. I do not accept homeworks which are \textit{not} on this printout. Keep this first page printed for your records.
+
+\end{abstract}
+
+\thispagestyle{empty}
+\vspace{1cm}
+NAME: \line(1,0){380}
+\clearpage
+}
+
+\problem{These exercises give you practice with sums and indicator functions.}
+
+\begin{enumerate}
+
+\easysubproblem{Expand and simplify as much as you can: $\sum_{x \in \reals} \indic{x = 17}$.}\spc{0.5}
+
+\easysubproblem{Expand and simplify as much as you can: $\sum_{x \in \reals} c \indic{x = 17}$ where $c \in \reals$ is a constant.}\spc{0.5}
+
+\easysubproblem{Expand and simplify as much as you can: $\sum_{x \in \reals} \indic{x \in \braces{1, 2, 3}}$.}\spc{0.5}
+
+\easysubproblem{Expand and simplify as much as you can: $\sum_{x \in \reals} x\indic{x \in \braces{1, 2, 3}}$.}\spc{0.5}
+\easysubproblem{Expand and simplify as much as you can: $\sum_{x \in \naturals_0} x^{\indic{x \in \braces{1, 2, 3}}}$.}\spc{0.5}
+
+\easysubproblem{Expand and simplify as much as you can: $\prod_{x \in \reals} \indic{x \in \braces{1, 2, 3}}$.}\spc{0.5}
+
+\easysubproblem{Expand and simplify as much as you can: $\sum_{x \in \reals} \indic{x \in \braces{1, 2, 3}}\indic{x \in \braces{4, 5, 6}}$.}\spc{0.5}
+
+
+\intermediatesubproblem{Expand and simplify as much as you can: $\sum_{x \in \reals} c \indic{x \in \braces{1, 2, \ldots, t}}$ where $c \in \reals$ is a constant and $t \in \naturals$ is a constant.}\spc{0.5}
+
+\intermediatesubproblem{Expand and simplify as much as you can: $\sum_{x \in \reals} t \indic{x \in \braces{1, 2, \ldots, t}}$ where $c \in \reals$ is a constant and $t \in \naturals$ is a constant.}\spc{0.5}
+
+\intermediatesubproblem{Expand and simplify as much as you can: $\sum_{x \in \reals} x \indic{x \in \braces{1, 2, \ldots, t}}$ where $c \in \reals$ is a constant and $t \in \naturals$ is a constant.}\spc{0.5}
+
+\intermediatesubproblem{Expand and simplify as much as you can: $\sum_{x \in \reals} \oneover{x!} \indic{x \in \naturals}$.}\spc{0.5}
+
+\intermediatesubproblem{Prove $\expe{\indic{X \in A}} = \prob{X \in A}$.}\spc{2}
+
+
+\end{enumerate}
+
+\problem{These exercises review convolutions.}
+
+
+\begin{enumerate}
+
+\easysubproblem{Is a JMF a type of PMF or PMF a type of JMF?}\spc{0.5}
+
+\easysubproblem{Let $X_1, X_2 \iid \bernoulli{p}$. Find the PMF of the sum of $T = X_1 + X_2$ using the appropriate discrete convolution formula that would make the problem easiest.}\spc{7}
+
+\easysubproblem{Let $X_1 \sim \bernoulli{p_1}$ independent of $X_2 \sim \bernoulli{p_2}$. Find the JMF of for $X_1, X_2$ as a 2 $\times$ 2 grid.}\spc{6}
+
+
+\intermediatesubproblem{Let $X_1 \sim \uniformdiscrete{1,2,3}$ independent of $X_2 \sim \uniformdiscrete{4,5,6}$. Let $T = X_1 + X_2$. Find $\support{T}$. Is $T$ also a discrete uniform rv?}\spc{6}
+
+\hardsubproblem{Let 
+
+\beqn
+X_1 \sim \begin{cases}
+3 \withprob 0.3 \\
+6 \withprob 0.7
+\end{cases} \quad \text{independent of} \quad
+%
+X_2 \sim \begin{cases}
+4 \withprob 0.4 \\
+8 \withprob 0.6
+\end{cases} 
+\eeqn
+
+Find the PMF of $T = X_1 + X_2$ using a convolution. Denote it using the piecewise function notation.}\spc{20}
+
+
+\easysubproblem{Derive the CDF $F_X(x)$ of $X \sim \geometric{p}$ from first principles.}\spc{4}
+
+\easysubproblem{Derive the survival function $S_X(x)$ of $X \sim \geometric{p}$ using the result from the previous question.}\spc{1}
+
+\hardsubproblem{Prove, using induction, the PMF of a binomial using convolutions on the sequence of r.v.'s $\Xoneton \iid \bernoulli{p}$. You will need to use Pascal's Triangle combinatorial identity we employed in class.}\spc{20}
+
+\hardsubproblem{Let $X_1 \sim \binomial{n}{p}$ independent of $X_2 \sim \binomial{n}{p}$. Find the PMF of the sum of $T = X_1 + X_2$ using a convolution.}\spc{9}
+
+
+
+\hardsubproblem{[MA] Prove the PMF of a negative binomial inductively using convolutions on the sequence of r.v.'s $\Xoneton \iid \geometric{p}$. You will need to use the \qu{hockey stick identity} \href{https://en.wikipedia.org/wiki/Hockey-stick_identity}{[click here]}.}\spc{11}
+
+
+
+
+\end{enumerate}
+
+
+
+
+
+
+\end{document}
+
