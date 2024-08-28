@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.27)  26 AUG 2024 22:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.27)  27 AUG 2024 21:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -610,31 +610,32 @@ Package pdftex.def Info: ../../syllabi/recommended_plan.pdf  used on input line
 [6]) (../../syllabi/_the650section.tex) (../../syllabi/_use_of_slack.tex
 [7]) (../../syllabi/_announcements_on_slack.tex)
 (../../syllabi/_standard_class_meetings.tex)
+(../../syllabi/_jewish_holiday_reschedule.tex)
 (../../syllabi/_theory_hws_text.tex)
 (../../syllabi/_theory_hws_submission_text.tex [8])
-(../../syllabi/_philosophy_hws.tex) (../../syllabi/_late_hw_policy.tex)
-(../../syllabi/_latex_hw_bonus_policy.tex [9]) (../../syllabi/_hw_ec_policy.tex
-) (../../syllabi/_examination_text.tex)
-(../../syllabi/_standard_exam_schedule.tex)
-(../../syllabi/_examination_policies.tex) [10]
+(../../syllabi/_philosophy_hws.tex) (../../syllabi/_time_spent_hws.tex)
+(../../syllabi/_late_hw_policy.tex) (../../syllabi/_latex_hw_bonus_policy.tex
+[9]) (../../syllabi/_hw_ec_policy.tex) (../../syllabi/_examination_text.tex)
+(../../syllabi/_standard_exam_schedule.tex [10])
+(../../syllabi/_examination_policies.tex)
 (../../syllabi/_standard_cheat_sheet_policy.tex)
 (../../syllabi/_cheating_on_exams_and_missing_exams.tex)
 (../../syllabi/_special_services.tex) (../../syllabi/_class_participation.tex)
-(../../syllabi/_standard_grading_and_grading_policy.tex
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[11]) (../../syllabi/_advanced_course_grade_distribution.tex)
+(../../syllabi/_standard_grading_and_grading_policy.tex [11])
+(../../syllabi/_advanced_course_grade_distribution.tex)
 (../../syllabi/_grade_checking_on_gradesly.tex)
 (../../syllabi/_auditing_policy.tex) [12] (syllabus.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `syllabus.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14517 strings out of 478582
- 231976 string characters out of 2852231
- 531564 words of memory out of 3000000
- 32327 multiletter control sequences out of 15000+600000
+ 14532 strings out of 478582
+ 232519 string characters out of 2852231
+ 531574 words of memory out of 3000000
+ 32335 multiletter control sequences out of 15000+600000
  493300 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,9n,134p,1185b,414s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -660,9 +661,9 @@ sers\kapel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on syllabus.pdf (12 pages, 304110 bytes).
+Output written on syllabus.pdf (12 pages, 305349 bytes).
 PDF statistics:
- 627 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
+ 631 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

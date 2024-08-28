@@ -79,7 +79,7 @@ Location: KY 258
 
 I *want* you to come to office hours! My office hours are:
 
-Time: Lecture days (Tu/Th) 6:15-6:30, 8:20-8:35PM
+Time: Lecture days (Tu/Th) 6:15-6:30PM and 8:20-8:35PM \
 Location: KY 258
 
 ## Change of Schedule
