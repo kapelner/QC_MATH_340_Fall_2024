@@ -47,10 +47,10 @@ NAME: \line(1,0){380}
 
 \begin{enumerate}
 
-\easysubproblem{State the CLT with all of its assumptions.}\spc{3}
+\inthenotessubproblem{State the CLT with all of its assumptions.}\spc{3}
 
-\easysubproblem{State the asymptotic distribution of $\Xbar_n$, the average of the rv's.}\spc{1}
-\easysubproblem{State the asymptotic distribution of $T_n$, the total of the rv's.}\spc{1}
+\inthenotessubproblem{State the asymptotic distribution of $\Xbar_n$, the average of the rv's.}\spc{1}
+\inthenotessubproblem{State the asymptotic distribution of $T_n$, the total of the rv's.}\spc{1}
 
 \intermediatesubproblem{According to \href{https://www.macrotrends.net/2526/sp-500-historical-annual-returns}{this site}, the S\&P500 delivers an average of 7.7\% per year with a standard deviation of 19.1\%. What is the probability the average yearly return over 20yr is positive? Note: this is a different question from \qu{do you make money over 20yr given an initial investment}? We will learn how to answer that latter question later in the semester when we learn about the LogNormal rv.}\spc{4}
 
@@ -61,12 +61,12 @@ NAME: \line(1,0){380}
 
 \begin{enumerate}
 
-\easysubproblem{Prove that $\cov{X_1}{X_2} = \expe{(X_1 - \mu_1)(X_2 - \mu_2)}$.}\spc{1}
+\inthenotessubproblem{Prove that $\cov{X_1}{X_2} = \expe{(X_1 - \mu_1)(X_2 - \mu_2)}$.}\spc{1}
 
-\easysubproblem{Prove that $\cov{X_1}{X_2} = \cov{X_2}{X_1}$.}\spc{1}
+\inthenotessubproblem{Prove that $\cov{X_1}{X_2} = \cov{X_2}{X_1}$.}\spc{1}
 
 
-\easysubproblem{Prove that $\cov{X_1 + X_3}{X_2} = \cov{X_1}{X_2} + \cov{X_3}{X_2}$.}\spc{1.5}
+\inthenotessubproblem{Prove that $\cov{X_1 + X_3}{X_2} = \cov{X_1}{X_2} + \cov{X_3}{X_2}$.}\spc{1.5}
 
 
 
@@ -86,8 +86,8 @@ Hint: use induction and play with the sum notation.}\spc{13}
 \eeqn.}\spc{7}
 
 
-\easysubproblem{Prove the Cauchy-Schwartz Inequality.}\spc{8}
-\easysubproblem{Prove the Covariance Inequality by invoking the Cauchy-Schwartz Inequality.}\spc{3}
+\inthenotessubproblem{Prove the Cauchy-Schwartz Inequality.}\spc{8}
+\inthenotessubproblem{Prove the Covariance Inequality by invoking the Cauchy-Schwartz Inequality.}\spc{3}
 
 
 \intermediatesubproblem{Let $Q$ be a non-negative, non-degenerate discrete rv. Prove $\expe{Q} > 0$.}\spc{4}
@@ -109,13 +109,13 @@ Prove that $\rho \in \bracks{-1, 1}$ for any two rv's $X_1$ and $X_2$.}\spc{4}
 
 \begin{enumerate}
 
-\easysubproblem{Prove Markov's Inequality. State the assumptions clearly.}\spc{4}
+\inthenotessubproblem{Prove Markov's Inequality. State the assumptions clearly.}\spc{4}
 
 \intermediatesubproblem{Prove a Markov's-like Inequality for the bound on the probability of the left tail for a negative r.v. $X$.}\spc{5}
 
-\easysubproblem{Prove Chebyshev's Inequality. State the assumptions clearly.}\spc{4}
+\inthenotessubproblem{Prove Chebyshev's Inequality. State the assumptions clearly.}\spc{4}
 
-\easysubproblem{Prove the lemma of Chebyshev's Inequality for the tail which looks like $\prob{X \geq b} \leq ...$. State the assumptions clearly.}\spc{4}
+\inthenotessubproblem{Prove the lemma of Chebyshev's Inequality for the tail which looks like $\prob{X \geq b} \leq ...$. State the assumptions clearly.}\spc{4}
 
 
 \intermediatesubproblem{Let $X$ be a non-negative rv. Prove $\prob{X \geq a} \leq \frac{\expe{X^3}}{a^3}$ where $a > 0$.}\spc{4}
@@ -126,7 +126,7 @@ Prove that $\rho \in \bracks{-1, 1}$ for any two rv's $X_1$ and $X_2$.}\spc{4}
 \hardsubproblem{[MA] Prove that if $\expe{X}$ is finite then $\expe{\abss{X}}$ is finite.}\spc{8}
 
 
-\hardsubproblem{Let $X_n \sim \exponential{n}$. Compute upper bounds for $\prob{X \geq 3}$ via Markov and Chebyshev. Does one go to zero \qu{faster} than the other? Explain.}\spc{15}
+\hardsubproblem{Let $X_n \sim \exponential{n}$. Compute upper bounds for $\prob{X \geq 3}$ via Markov and Chebyshev. Does one go to zero \qu{faster} than the other? Explain.}\spc{10}
 
 
 \end{enumerate}
@@ -144,13 +144,13 @@ X_n \sim \begin{cases}
 \end{cases}
 \eeqn
 
-Show that $X_n \convd 0$. You can use the theorem we never proved that $\lim \indic{a_n} = \indic{\lim a_n}$.}\spc{4}
+Show that $X_n \convd 0$. You can use the theorem we never proved that $\limitn \indic{a_n} = \indic{\limitn a_n}$.}\spc{4}
 
 \intermediatesubproblem{Prove that $X_n \convp 0$. For a full proof of $\forall \epsilon$, you need to show it for $\epsilon < 1$ and $\epsilon \geq 1$ separately but since we only care about small epsilon, you can just demonstrate it for $\epsilon < 1$.}\spc{7}
 
 \intermediatesubproblem{If $X_n \sim \exponential{n}$, prove that $X_n \convd 0$.}\spc{7}
 
-\intermediatesubproblem{If $X_n \sim \exponential{n}$, prove that $X_n \convp 0$. You can prove this using its CDF or using Markov's inequality.}\spc{7}
+\intermediatesubproblem{If $X_n \sim \exponential{n}$, prove that $X_n \convp 0$. You can prove this using its CDF, using P7 of chf's or using Markov's inequality.}\spc{7}
 
 \hardsubproblem{[MA] Prove that PDF convergence implies CDF convergence (i.e., that $X_n \convd X$). You will need to use the dominated convergence theorem (DCT). Justifying the use of the DCT is slightly harder.}\spc{7}
 

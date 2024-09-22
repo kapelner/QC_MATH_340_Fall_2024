@@ -148,8 +148,20 @@
 \newcommand{\bSigmainv}{\bSigma^{-1}}
 \newcommand{\thetavec}{\bv{\theta}}
 \newcommand{\thetahat}{\hat{\theta}}
+\usepackage{accents}
+\newlength{\dhatheight}
+\newcommand{\doublehat}[1]{%
+    \settoheight{\dhatheight}{\ensuremath{\hat{#1}}}%
+    \addtolength{\dhatheight}{-0.35ex}%
+    \hat{\vphantom{\rule{1pt}{\dhatheight}}%
+    \smash{\hat{#1}}}}
+
+\newcommand{\thetahathat}{\doublehat{\theta}}
 \newcommand{\thetahatmle}{\hat{\theta}_{\mathrm{MLE}}}
 \newcommand{\thetavechatmle}{\hat{\thetavec}_{\mathrm{MLE}}}
+
+\newcommand{\thetahatmm}{\hat{\theta}^{\mathrm{MM}}}
+\newcommand{\thetahathatmm}{\thetahathat^{\mathrm{MM}}}
 \newcommand{\muhat}{\hat{\mu}}
 \newcommand{\musq}{\mu^2}
 \newcommand{\muvec}{\bv{\mu}}
@@ -160,7 +172,6 @@
 \newcommand{\alphavec}{\bv{\alpha}}
 \newcommand{\minimaxdec}{\delta^*_{\mathrm{mm}}}
 \newcommand{\ybar}{\bar{y}}
-\newcommand{\Ybar}{\bar{Y}}
 \newcommand{\xbar}{\bar{x}}
 \newcommand{\Xbar}{\bar{X}}
 \newcommand{\phat}{\hat{p}}
@@ -401,10 +412,9 @@
 \newcommand{\stdbetanot}{\betanot{\alpha}{\beta}}
 \newcommand{\multnormnot}[3]{\mathcal{N}_{#1}\parens{#2,\,#3}}
 \newcommand{\normnot}[2]{\mathcal{N}\parens{#1,\,#2}}
-\newcommand{\erlang}[2]{\mathrm{Erlang}\parens{#1,\,#2}}
 \newcommand{\classicnormnot}{\normnot{\mu}{\sigsq}}
 \newcommand{\stdnormnot}{\normnot{0}{1}}
-\newcommand{\uniformdiscrete}[1]{\mathrm{U}\parens{\braces{#1}}}
+\newcommand{\uniformdiscrete}[1]{\mathrm{Uniform}\parens{\braces{#1}}}
 \newcommand{\uniform}[2]{\mathrm{U}\parens{#1,\,#2}}
 \newcommand{\stduniform}{\uniform{0}{1}}
 \newcommand{\geometric}[1]{\mathrm{Geometric}\parens{#1}}
@@ -468,8 +478,8 @@
 \newcommand{\convau}{~{\buildrel a.u. \over \longrightarrow}~}
 \newcommand{\nconvau}{~{\buildrel a.u. \over \nrightarrow}~}
 \newcommand{\nconvae}{~{\buildrel a.e. \over \nrightarrow}~}
-\newcommand{\convd}{~{\buildrel d \over \rightarrow}~}
-\newcommand{\nconvd}{~{\buildrel d \over \nrightarrow}~}
+\newcommand{\convd}{~{\buildrel {d} \over \rightarrow}~}
+\newcommand{\nconvd}{~{\buildrel {d} \over \nrightarrow}~}
 \newcommand{\withprob}{~~\text{w.p.}~~}
 \newcommand{\io}{~~\text{i.o.}}
 
@@ -493,6 +503,8 @@
 
 \newcommand{\problem}[1]{\noindent \colorbox{black}{{\color{yellow} \large{\textsf{\textbf{Problem \arabic{probnum}}}}~}} \addtocounter{probnum}{1} \vspace{0.2cm} \\ \iftoggle{professormode}{}{\color{darkgrey}} #1}
 
+
+\newcommand{\inthenotessubproblem}[1]{\ingreen{\item} \iftoggle{professormode}{}{\color{darkgrey}} [in the notes] #1 \color{black} }
 \newcommand{\easysubproblem}[1]{\ingreen{\item} \iftoggle{professormode}{}{\color{darkgrey}} [easy] #1 \color{black} }
 \newcommand{\intermediatesubproblem}[1]{\inorange{\item} \iftoggle{professormode}{}{\color{darkgrey}} [harder] #1 \color{black} }
 \newcommand{\hardsubproblem}[1]{\inred{\item} \iftoggle{professormode}{}{\color{darkgrey}} [difficult] #1 \color{black} }
@@ -505,7 +517,7 @@
 \newalphalph{\alphmult}[mult]{\@alph}{26}
 \renewcommand{\labelenumi}{(\alphmult{\value{enumi}})}
 
-\newcommand{\support}[1]{\mathbb{S}_{#1}}
+\newcommand{\support}[1]{\text{Supp}\bracks{#1}}
 \newcommand{\mode}[1]{\text{Mode}\bracks{#1}}
 \newcommand{\IQR}[1]{\text{IQR}\bracks{#1}}
 \newcommand{\quantile}[2]{\text{Quantile}\bracks{#1,\,#2}}

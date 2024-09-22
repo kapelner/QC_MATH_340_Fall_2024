@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.23)  22 SEP 2024 17:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.23)  22 SEP 2024 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -408,11 +408,21 @@ Package: alltt 2021/01/29 v2.0g defines alltt environment
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 \c@probnum=\count311
+
+(C:\Users\Kapelner\AppData\Roaming\MiKTeX\2.9\tex/latex/accents\accents.sty
+Package: accents 2006/05/12 v1.4 Math Accent Tools
+\cc@skew=\dimen166
+\cc@wd=\dimen167
+\cc@code=\count312
+\cc@group=\count313
+\cc@skewchar=\count314
+)
+\dhatheight=\skip59
 )
 (C:\Users\Kapelner\AppData\Roaming\MiKTeX\2.9\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count312
+\l__color_backend_stack_int=\count315
 \l__pdf_internal_box=\box52
 ) (hw03.aux)
 \openout1 = `hw03.aux'.
@@ -439,33 +449,24 @@ LaTeX Font Info:    ... okay on input line 20.
 (C:\Users\Kapelner\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count313
-\scratchdimen=\dimen166
+\scratchcounter=\count316
+\scratchdimen=\dimen168
 \scratchbox=\box53
-\nofMPsegments=\count314
-\nofMParguments=\count315
+\nofMPsegments=\count317
+\nofMParguments=\count318
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count316
-\MPscratchDim=\dimen167
-\MPnumerator=\count317
-\makeMPintoPDFobject=\count318
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen169
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
 \everyMPtoPDFconversion=\toks28
 )
 (C:\Users\Kapelner\AppData\Roaming\MiKTeX\2.9\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(C:\Users\Kapelner\AppData\Roaming\MiKTeX\2.9\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
-
-(C:\Program Files\MiKTeX 2.9\tex/latex/00miktex\epstopdf-sys.cfg
+ (C:\Program Files\MiKTeX 2.9\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 20.
@@ -480,7 +481,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count319
+\c@section@level=\count322
 )
 LaTeX Info: Redefining \ref on input line 20.
 LaTeX Info: Redefining \pageref on input line 20.
@@ -559,13 +560,7 @@ LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [2
 
-] [3] [4] [5]
-Overfull \hbox (9.21713pt too wide) in paragraph at lines 118--119
-[]\T1/cmr/m/n/12 [easy] Prove the lemma of Cheby-shev's In-equal-ity for the ta
-il which looks like $\U/msb/m/n/12 P [] \OMS/cmsy/m/n/12 
- []
-
-[6]
+] [3] [4] [5] [6]
 LaTeX Font Info:    Trying to load font information for U+dsrom on input line 1
 47.
 
@@ -577,7 +572,7 @@ Overfull \hbox (14.39597pt too wide) in paragraph at lines 155--156
 -ver-gence (i.e., that $\OML/cmm/m/it/12 X[] [][] []X$\T1/cmr/m/n/12 ).
  []
 
-<conv.jpg, id=84, 536.0025pt x 335.00156pt>
+<conv.jpg, id=85, 536.0025pt x 335.00156pt>
 File: conv.jpg Graphic file (type jpg)
 <use conv.jpg>
 Package pdftex.def Info: conv.jpg  used on input line 161.
@@ -587,10 +582,10 @@ Package rerunfilecheck Info: File `hw03.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12855 strings out of 478550
- 196281 string characters out of 2850885
- 508325 words of memory out of 3000000
- 30780 multiletter control sequences out of 15000+600000
+ 12873 strings out of 478550
+ 196279 string characters out of 2850885
+ 508215 words of memory out of 3000000
+ 30798 multiletter control sequences out of 15000+600000
  487803 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,14n,85p,1026b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -612,12 +607,13 @@ s/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Kapelner/AppData/Roaming/MiKTe
-X/2.9/fonts/type1/public/doublestroke/dsrom12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on hw03.pdf (11 pages, 238561 bytes).
+nts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb><C:/Users/Kapelner/AppData/Roaming/MiKTeX/2.9/fon
+ts/type1/public/doublestroke/dsrom12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/symbols/msbm10.pfb>
+Output written on hw03.pdf (11 pages, 247934 bytes).
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
+ 444 PDF objects out of 1000 (max. 8388607)
  48 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
