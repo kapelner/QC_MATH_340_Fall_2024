@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.23)  26 SEP 2024 14:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.23)  26 SEP 2024 20:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -593,7 +593,7 @@ LaTeX Font Info:    Trying to load font information for U+dsrom on input line 5
 (C:\Users\Kapelner\AppData\Roaming\MiKTeX\2.9\tex/latex/doublestroke\udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 ) [2]
-Overfull \hbox (1.5328pt too wide) in paragraph at lines 106--107
+Overfull \hbox (1.5328pt too wide) in paragraph at lines 103--104
 []\OT1/cmr/m/n/12 [10 pt / 52 pts] []   Let $\OML/cmm/m/it/12 Y[] \OT1/cmr/m/n/
 12 := []\OML/cmm/m/it/12 X$\OT1/cmr/m/n/12 . Show $\OML/cmm/m/it/12 Y[] [][] []
 \OT1/cmr/m/n/12 0$. Hint: $\OML/cmm/m/it/12 []\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
@@ -601,7 +601,7 @@ Overfull \hbox (1.5328pt too wide) in paragraph at lines 106--107
  []
 
 
-Overfull \hbox (4.29646pt too wide) in alignment at lines 136--138
+Overfull \hbox (4.29646pt too wide) in alignment at lines 133--135
  [][][] []
  []
 
