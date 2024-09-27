@@ -23,7 +23,7 @@ My lecture notes are scanned in as PDF files contributed by myself and are found
 
 ## Exams
 
-* Midterm I, Thurs, Sept 26
+* Midterm I, Thurs, Sept 26 Midterm I [(exam)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/exams/midterm1/midterm1.pdf) [(solutions)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/exams/midterm1/midterm1_solutions.pdf)
 * Midterm II, Thurs, Nov 14
 * Final, TBD
 

@@ -1,0 +1,197 @@
+\documentclass[12pt]{article}
+
+\include{preamble}
+
+\newtoggle{solutions}
+%\toggletrue{solutions}
+
+\newcommand{\instr}{\small Your answer will consist of a lowercase string (e.g. \texttt{aebgd}) where the order of the letters does not matter. \normalsize}
+
+\newcommand{\logbaseten}[1]{\text{log$_{10}$}\parens{#1}}
+
+\title{Math 340 / 640 Fall \the\year{} \\ Midterm Examination One}
+\author{Professor Adam Kapelner}
+
+\date{September 26, \the\year{}}
+
+\begin{document}
+\maketitle
+
+\noindent Full Name \line(1,0){410}
+
+\thispagestyle{empty}
+
+\section*{Code of Academic Integrity}
+
+\footnotesize
+Since the college is an academic community, its fundamental purpose is the pursuit of knowledge. Essential to the success of this educational mission is a commitment to the principles of academic integrity. Every member of the college community is responsible for upholding the highest standards of honesty at all times. Students, as members of the community, are also responsible for adhering to the principles and spirit of the following Code of Academic Integrity.
+
+Activities that have the effect or intention of interfering with education, pursuit of knowledge, or fair evaluation of a student's performance are prohibited. Examples of such activities include but are not limited to the following definitions:
+
+\paragraph{Cheating} Using or attempting to use unauthorized assistance, material, or study aids in examinations or other academic work or preventing, or attempting to prevent, another from using authorized assistance, material, or study aids. Example: using an unauthorized cheat sheet in a quiz or exam, altering a graded exam and resubmitting it for a better grade, etc.\\
+\\
+\noindent I acknowledge and agree to uphold this Code of Academic Integrity. \\~\\
+
+\begin{center}
+\line(1,0){350} ~~~ \line(1,0){100}\\
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~signature~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ date
+\end{center}
+
+\normalsize
+
+\section*{Instructions}
+This exam is 110 minutes (variable time per question) and closed-book. You are allowed \textbf{one} page (front and back) of a \qu{cheat sheet}, blank scrap paper (provided by the proctor) and a graphing calculator (which is not your smartphone). Please read the questions carefully. Within each problem, I recommend considering the questions that are easy first and then circling back to evaluate the harder ones. No food is allowed, only drinks. %If the question reads \qu{compute,} this means the solution will be a number otherwise you can leave the answer in \textit{any} widely accepted mathematical notation which could be resolved to an exact or approximate number with the use of a computer. I advise you to skip problems marked \qu{[Extra Credit]} until you have finished the other questions on the exam, then loop back and plug in all the holes. I also advise you to use pencil. The exam is 100 points total plus extra credit. Partial credit will be granted for incomplete answers on most of the questions. \fbox{Box} in your final answers. Good luck!
+
+\pagebreak
+
+\problem This problem is about a random phenomenon called Benford's Law, it represents the distribution of leading digit in data across a wide variety of data sets that measure natural phenomenon such as street addresses, stock prices, population numbers, etc. Letting $x$ be the digit in base 10, we have the following rv which has mean and variance:
+
+\beqn
+X \sim \text{Benford} := \logbaseten{\frac{x+1}{x}} \indic{x \in \braces{1, 2, \ldots, 9}}, \quad \expe{X} = 3.44, \quad \var{X} = 6.06
+\eeqn
+%\quad \phi_X(t) = \sum_{x\in \reals} e^{itx} ~\logbaseten{\frac{x+1}{x}} \indic{x \in \braces{1, 2, \ldots, 9}}, 
+
+\begin{enumerate}[(a)]
+
+
+\subquestionwithpoints{3} What is the support of $X$? $\support{X}$ = \iftoggle{solutions}{\inred{$\braces{1,2,\ldots,9}$}}
+
+\subquestionwithpoints{3} Circle one: this rv is... \quad \iftoggle{solutions}{\inred{discrete}}{discrete} \quad / \quad continuous \quad
+
+\subquestionwithpoints{3} Circle one: the PMF (or PDF) of $X$  is in... \quad old-style \quad / \quad \iftoggle{solutions}{\inred{new style}}{new style}
+
+\subquestionwithpoints{3} Circle one: $X$ ... \quad has parameter(s) \quad / \quad \iftoggle{solutions}{\inred{does not have parameter(s)}}{does not have parameter(s)}\quad
+
+\subquestionwithpoints{6} Find $\prob{X \leq 3}$ exactly and then approximate to the nearest 3 decimals.
+
+\iftoggle{solutions}{\inred{
+\beqn
+\prob{X=1} + \prob{X=2} + \prob{X=3} = \logbaseten{\frac{2}{1}} + \logbaseten{\frac{3}{2}} + \logbaseten{\frac{4}{3}} = 0.602
+\eeqn
+}}{~\spc{3}}
+
+\subquestionwithpoints{7} Verify the Humpty-Dumpty Identity for the PMF (or PDF). Hint: remember the precalculus rule that $\text{log$_{10}$}(a/b) = \text{log$_{10}$}(a) - \text{log$_{10}$}(b)$.
+
+\iftoggle{solutions}{\inred{
+\beqn
+&& \sum_{x \in \braces{1,2, \ldots, 9}}\logbaseten{\frac{x+1}{x}} = \sum_{x \in \braces{1,2, \ldots, 9}}\logbaseten{x+1} - \sum_{x \in \braces{1,2, \ldots, 9}} \logbaseten{x} \\
+&=& \sum_{x \in \braces{2,3, \ldots, 10}}\logbaseten{x} - \sum_{x \in \braces{1,2, \ldots, 9}} \logbaseten{x} = \cancelto{1}{\logbaseten{10}} - \cancelto{0}{\logbaseten{1}} = 1 ~\checkmark
+\eeqn
+}}{~\spc{5}}
+
+\subquestionwithpoints{7} Find an expression for $F_X(x)$, the CDF of $X$, that is valid for all $x \in \reals$.  Hint: one possible answer has $|\support{X}|$ terms and each includes an indicator function.
+
+
+\iftoggle{solutions}{\inred{
+\beqn
+F_X(x) &=& \logbaseten{\frac{2}{1}} \indic{x \geq 1} + \logbaseten{\frac{3}{2}} \indic{x \geq 2} + \ldots + \logbaseten{\frac{10}{9}} \indic{x \geq 9}  \\
+&=& \sum_{i \in \braces{1,2, \ldots, 9}} \logbaseten{\frac{i+1}{i}} \indic{x \geq i}
+\eeqn
+\pagebreak
+}}{~\spc{3}}
+
+% \subquestionwithpoints{4} Using the chf of $X$, find an expression that computes $\expe{X}$.\spc{3}
+
+\subquestionwithpoints{10} Find an upper bound for $\expe{X^4}$ to the nearest two decimals. Hint: use the Cauchy-Schwartz inequality.
+
+
+\iftoggle{solutions}{\inred{
+\beqn
+\expe{X^4} = \abss{\expe{X^4}} &\leq& \sqrt{\expe{X^2} \expe{X^2}} = \abss{\expe{X^2}} = \expe{X^2} = \var{X} + \expe{X}^2 \\
+&=& 6.06 + 3.44^2 = 17.89
+\eeqn
+}}{~\spc{5}}
+
+
+\subquestionwithpoints{10} Let $Y_n := \oneover{n} X$. Show $Y_n \convd 0$. Hint: $\phi_X(t) = \displaystyle\sum_{x \in \braces{1, 2, \ldots, 9}} e^{itx} \logbaseten{\frac{x+1}{x}}$.
+
+\iftoggle{solutions}{\inred{
+\beqn
+\limitn \phi_{Y_n}(t) &=& \limitn \phi_{X_n}(t/n) = \limitn \sum_{x \in \braces{1, 2, \ldots, 9}} e^{i\frac{t}{n}x} \logbaseten{\frac{x+1}{x}} \\
+&=& \sum_{x \in \braces{1, 2, \ldots, 9}}  \logbaseten{\frac{x+1}{x}} e^{ix \limitn \frac{t}{n}} = \sum_{x \in \braces{1, 2, \ldots, 9}}  \logbaseten{\frac{x+1}{x}} e^{ix (0)} \\
+&=& \sum_{x \in \braces{1, 2, \ldots, 9}}  \logbaseten{\frac{x+1}{x}} = 1 = e^{it(0)} = \phi_Y(t) \mathimplies Y_n \convd Y \sim \text{Deg(0)} = 0~\checkmark
+\eeqn
+}}{~\spc{5}}
+
+
+
+
+% \subquestionwithpoints{4} Find the PMF (or PDF) of $T_2$ valid for all $t \in \reals$. Simplify as much as possible.\spc{6}
+
+
+\subquestionwithpoints{10} Benford's Law is used by the Internal Revenue Service (IRS) to catch people committing tax fraud. The \qu{1040 form} the IRS uses has about 100 numeric entries. When people commit fraud, they may fabricate numbers by drawing iid from $U(\braces{1,2, \ldots, 9})$ which has mean 5 and thus an average probability of first digit greater than 5 of 4/9. 
+
+If the 100 first digits on the IRS form were distributed according to Benford's Law, what is the approximate probability the average value of the first digit on the IRS 1040 form is greater than 5?
+
+
+\iftoggle{solutions}{\inred{
+\beqn
+\Xbar_{100} &\approxdist& \normnot{\expe{X}}{\frac{\var{X}}{100}} = \normnot{3.44}{\frac{6.06}{100}} ~~~\text{by the CLT} \\
+\prob{\Xbar_{100} > 5} &\approx& \prob{Z > \frac{5 - 3.44}{\sqrt{\frac{6.06}{100}}}} = \prob{Z > 6.34} \approx 0
+\eeqn
+\pagebreak
+}}{~\spc{6}}
+
+
+\beqn
+\text{Consider} ~~ X_1, X_2 \iid \text{Benford} \quad \text{and} \quad T_2 := X_1 + X_2 \hspace{6cm}
+\eeqn
+
+
+% \subquestionwithpoints{3} What real value is the following expression close to?
+
+% \beqn
+% \frac{X_1 + X_2 + \ldots + X_{100}}{100} \approx \hspace{11cm}
+% \eeqn
+
+% \subquestionwithpoints{3} Let $t_n$ be a realization from the rv $T_n$. What is the best approximation for the value of $t_{100}$? Your answer must be a real number.\spc{2}
+
+\subquestionwithpoints{3} Find the covariance, $\cov{X_1}{X_2} =$ \iftoggle{solutions}{\inred{0 (due to independence)}}
+
+
+\subquestionwithpoints{3} What is the support of $T_2$? $\support{T_2}$ = \iftoggle{solutions}{\inred{$\braces{2,3, \ldots, 18}$}}
+
+\end{enumerate}
+
+\problem 
+\beqn
+\text{Consider the following rv:}~~X, Y \iid \frac{\lambda-1}{(x+1)^{\lambda}} \indic{x \in (0, \infty)}, \quad T = X+Y
+\eeqn
+
+\begin{enumerate}[(a)]
+\subquestionwithpoints{3} What is the support of $X$? $\support{X}$ = \iftoggle{solutions}{\inred{$(0, \infty)$}}
+
+\subquestionwithpoints{3} Circle one: this rv is... \quad discrete \quad / \quad \iftoggle{solutions}{\inred{continuous}}{continuous} \quad
+
+\subquestionwithpoints{3} Circle one: the PMF (or PDF) of $X$  is in... \quad old-style \quad / \quad \iftoggle{solutions}{\inred{new style}}{new style}
+
+\subquestionwithpoints{3} Circle one: $X$ ... \quad \iftoggle{solutions}{\inred{has parameter(s)}}{has parameter(s)} \quad / \quad does not have parameter(s)\quad
+
+
+\subquestionwithpoints{10} Find the PMF (or PDF) of $T$ valid for all $ t\in\reals$. Leave in sum (or definite integral) format but factor out all constants and simplify \emph{as much as possible}.
+
+
+\iftoggle{solutions}{\inred{
+\beqn
+f_T(t) &=& \int_{\support{X}} f(x) f(t-x) \indic{t-x \in \support{X}} ~dx = \int_{x \in (0, \infty)} \frac{\lambda-1}{(x+1)^{\lambda}} \frac{\lambda-1}{(t-x+1)^{\lambda}} \indic{t-x \in (0, \infty)} ~dx \\
+&=& (\lambda - 1)^2 \int_{x \in (0, \infty)} \oneover{((x+1)(t-x+1))^\lambda} \indic{x \in (-\infty, t)} ~dx \\
+&=& (\lambda - 1)^2 \indic{t \in (0, \infty)} \int_{x \in (0, t)} \oneover{((x+1)(t-x+1))^\lambda} ~dx
+\eeqn
+}}{~\spc{5}}
+
+\subquestionwithpoints{10} Find $\prob{X > Y}$. Leave in sum (or definite integral) format but factor out all constants and simplify \emph{as much as possible}.
+
+
+\iftoggle{solutions}{\inred{
+\beqn
+\prob{X > Y} &=& \int_{y \in \reals} \int_{x \in \reals} f_{X,Y}(x,y) \indic{x > y}~dx dy \\
+&=& \int_{y \in \reals} \int_{x \in \reals} \frac{\lambda-1}{(x+1)^{\lambda}} \indic{x \in (0, \infty)} \frac{\lambda-1}{(y+1)^{\lambda}} \indic{y \in (0, \infty)} \indic{x \in (y, \infty)}~dx dy \\
+&=&  (\lambda - 1)^2 \int_{y \in (0, \infty)} \frac{1}{(y+1)^{\lambda}} 
+ \int_{x \in (0, \infty)} \frac{1}{(x+1)^{\lambda}} \indic{x \in (y, \infty)}~dx dy \\
+&=&  (\lambda - 1)^2 \int_{y \in (0, \infty)} \frac{1}{(y+1)^{\lambda}} 
+ \int_{x \in (y, \infty)} \frac{1}{(x+1)^{\lambda}} ~dx dy \\
+\eeqn
+}}{~\spc{5}}
+
+\end{enumerate}
+\end{document}
