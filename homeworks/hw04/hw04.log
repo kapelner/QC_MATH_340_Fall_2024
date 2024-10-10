@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.27)  11 SEP 2024 09:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.27)  10 OCT 2024 11:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./hw02.tex
-(hw02.tex
+**./hw04.tex
+(hw04.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
 (C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls
@@ -401,14 +401,24 @@ Package: alltt 2021/01/29 v2.0g defines alltt environment
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 \c@probnum=\count311
+
+(C:\Users\kapel\AppData\Roaming\MiKTeX\2.9\tex/latex/accents\accents.sty
+Package: accents 2006/05/12 v1.4 Math Accent Tools
+\cc@skew=\dimen166
+\cc@wd=\dimen167
+\cc@code=\count312
+\cc@group=\count313
+\cc@skewchar=\count314
+)
+\dhatheight=\skip59
 )
 (C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count312
+\l__color_backend_stack_int=\count315
 \l__pdf_internal_box=\box52
 )
-(hw02.aux)
-\openout1 = `hw02.aux'.
+(hw04.aux)
+\openout1 = `hw04.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
@@ -430,29 +440,21 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
  (C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count313
-\scratchdimen=\dimen166
+\scratchcounter=\count316
+\scratchdimen=\dimen168
 \scratchbox=\box53
-\nofMPsegments=\count314
-\nofMParguments=\count315
+\nofMPsegments=\count317
+\nofMParguments=\count318
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count316
-\MPscratchDim=\dimen167
-\MPnumerator=\count317
-\makeMPintoPDFobject=\count318
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen169
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
 \everyMPtoPDFconversion=\toks28
 ) (C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(C:\Users\kapel\AppData\Roaming\MiKTeX\2.9\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
@@ -469,14 +471,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 tring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count319
+\c@section@level=\count322
 )
 LaTeX Info: Redefining \ref on input line 20.
 LaTeX Info: Redefining \pageref on input line 20.
 LaTeX Info: Redefining \nameref on input line 20.
- (hw02.out) (hw02.out)
+ (hw04.out) (hw04.out)
 \@outlinefile=\write3
-\openout3 = `hw02.out'.
+\openout3 = `hw04.out'.
 
 
 (C:\Users\kapel\AppData\Roaming\MiKTeX\2.9\tex/latex/fmtcount\fc-english.def
@@ -546,27 +548,39 @@ LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [2
-
-]
-LaTeX Font Info:    Trying to load font information for U+dsrom on input line 6
-8.
-
-(C:\Users\kapel\AppData\Roaming\MiKTeX\2.9\tex/latex/doublestroke\udsrom.fd
-File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 )
-[3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] (hw02.aux)
-Package rerunfilecheck Info: File `hw02.out' has not changed.
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 53.
+
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 53.
+
+[2
+
+] [3]
+Overfull \hbox (21.09181pt too wide) in alignment at lines 82--82
+ [][][] []
+ []
+
+<marbles.jpg, id=44, 205.76875pt x 245.91875pt>
+File: marbles.jpg Graphic file (type jpg)
+<use marbles.jpg>
+Package pdftex.def Info: marbles.jpg  used on input line 94.
+(pdftex.def)             Requested size: 101.17755pt x 120.91776pt.
+[4 <./marbles.jpg>] [5] [6] [7] [8] [9] [10] [11] (hw04.aux)
+Package rerunfilecheck Info: File `hw04.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12808 strings out of 478582
- 194984 string characters out of 2852231
- 508802 words of memory out of 3000000
- 30713 multiletter control sequences out of 15000+600000
- 487803 words of font info for 84 fonts, out of 8000000 for 9000
+ 12835 strings out of 478582
+ 194958 string characters out of 2852231
+ 507624 words of memory out of 3000000
+ 30740 multiletter control sequences out of 15000+600000
+ 490504 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,8n,85p,1026b,467s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 77i,8n,85p,1026b,462s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\kapel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 ecsx1440.pk> <C:\Users\kapel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
 ec/dpi600\ecrm1200.pk> <C:\Users\kapel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
@@ -581,16 +595,16 @@ pk> <C:\Users\kapel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb><C:/Users/kapel/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/doubl
-estroke/dsrom12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/sy
-mbols/msbm10.pfb>
-Output written on hw02.pdf (15 pages, 227703 bytes).
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.p
+fb>
+Output written on hw04.pdf (11 pages, 227424 bytes).
 PDF statistics:
- 462 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 438 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
