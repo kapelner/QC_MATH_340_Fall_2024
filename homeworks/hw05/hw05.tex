@@ -12,7 +12,7 @@
 \author{Professor Adam Kapelner} %STUDENTS: write your name here
 
 \iftoggle{professormode}{
-\date{Due by email 11:59PM November 10, \the\year \\ \vspace{0.5cm} \small (this document last updated \today ~at \currenttime)}
+\date{Due by email 11:59PM November 11, \the\year \\ \vspace{0.5cm} \small (this document last updated \today ~at \currenttime)}
 }
 
 \renewcommand{\abstractname}{Instructions and Philosophy}
@@ -69,6 +69,10 @@ NAME: \line(1,0){380}
 \easysubproblem{Let $X \sim \chisq{k} = \gammanot{\overtwo{k}}{\half}$. Find the PDF of $X$ by making the correct substitutions in the gamma PDF and simplifying.}\spc{3}
 
 
+
+
+
+
 \easysubproblem{Using $Z_1,  Z_2, \ldots \iid \stdnormnot$, the function $g$ s.t. $g(Z_1,  Z_2, \ldots)  \sim \chisq{k}$ where $k \in \naturals$ is a constant is given below:
 
 \ingreen{
@@ -94,18 +98,9 @@ g(Z_1,  Z_2, \ldots) = Z_1^2 + Z_2^2 + \ldots + Z_k^2 \sim \chisq{k}
 
 %\easysubproblem{Let $X \sim T_k$, find the kernel of $f_X(x)$.}\spc{3}
 
-\easysubproblem{Let $W^2 \sim F_{1, k}$ where $k \in \naturals$. $W \sim$}\spc{-0.5}
+\inthenotessubproblem{If $W^2 \sim F_{1, k}$ $k \in \naturals$, $W$ is symmetric about zero, then $W \sim$}\spc{-0.5}
 
-\hardsubproblem{Let $W^2 \sim F_{1, k}$ where $k \in \naturals$. Find the PDF of $W$, $f_W(w)$, by using transformation of variables.}
-
-\ingreen{
-As this question caused confusion in previous years, I will start you off... 
-\beqn
-&& F_{W^2}(w^2) = \prob{W^2 \leq w^2} = \prob{W \in \bracks{-w,w}} = F_W(w) - F_W(-w) \\
-&&\Rightarrow \frac{d}{dw}\bracks{F_{W^2}(w^2) } = \frac{d}{dw}\bracks{F_W(w) - F_W(-w)} =
-\eeqn
-}
-~\spc{10}
+\hardsubproblem{Let $W^2 \sim F_{1, k}$ where $k \in \naturals$. Find the PDF of $Y = \sqrt{W^2}$ by using transformation of variables.} \spc{10}
 
 \extracreditsubproblem{Show that the PDF of $X \sim T_k$, converges to the PDF of $Z \sim \stdnormnot$ when $k \rightarrow \infty$. Hint: use Stirling's approximation.}\spc{10}
 
@@ -199,7 +194,8 @@ As this question caused confusion in previous years, I will start you off...
 
 \end{enumerate}
 
-\problem{We will now practice multivariate change of variables where $\Y = \bv{g}(\X)$ where $\X$ denotes a vector of $k$ continuous r.v.'s and $\bv{g} : \reals^k \rightarrow \reals^k$ and is 1:1.}
+\problem{We will now practice multivariate change of variables where $\Y = \bv{g}(\X)$ where $\X$ de
+ a vector of $k$ continuous r.v.'s and $\bv{g} : \reals^k \rightarrow \reals^k$ and is 1:1.}
 
 \begin{enumerate}
 
