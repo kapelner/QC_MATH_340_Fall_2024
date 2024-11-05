@@ -12,8 +12,8 @@ My lecture notes are scanned in as PDF files contributed by myself and are found
 <!--
 * Homework 9 [(download)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw09/hw09.pdf?raw=true) [(view)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw09/hw09.pdf) (due 12/12)
 * Homework 8 [(download)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw08/hw08.pdf?raw=true) [(view)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw08/hw08.pdf) (due 12/2)
-* Homework 7 [(download)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw07/hw07.pdf?raw=true) [(view)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw07/hw07.pdf) (not officially due)
-* Homework 6 [(download)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw06/hw06.pdf?raw=true) [(view)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw06/hw06.pdf) (due 12/3)-->
+* Homework 7 [(download)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw07/hw07.pdf?raw=true) [(view)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw07/hw07.pdf) (due 12/2)-->
+* Homework 6 [(download)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw06/hw06.pdf?raw=true) [(view)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw06/hw06.pdf) (due 11/25)
 * Homework 5 [(download)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw05/hw05.pdf?raw=true) [(view)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw05/hw05.pdf) (due 11/11)
 * Homework 4 [(download)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw04/hw04.pdf?raw=true) [(view)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw04/hw04.pdf) (due 10/27)
 * Homework 3 [(download)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw03/hw03.pdf?raw=true) [(view)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw03/hw03.pdf) (due 10/6)
@@ -59,9 +59,6 @@ Location: KY 258
 
 ## Change of Schedule
 
-For religious reasons, I cannot attend the lectures on Thursday, Oct 17 and Thursday Oct 24. Make up sessions are below
-
-* Tuesday, Oct 15. This day is a "Monday" schedule at CUNY. Class will be from 6:15PM-8:05PM in KY250.
 * Final review session in December TBD
 
 
