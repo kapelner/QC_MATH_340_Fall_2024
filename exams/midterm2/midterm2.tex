@@ -3,7 +3,7 @@
 \include{preamble}
 
 \newtoggle{solutions}
-%\toggletrue{solutions}
+\toggletrue{solutions}
 
 \newcommand{\instr}{\small Your answer will consist of a lowercase string (e.g. \texttt{aebgd}) where the order of the letters does not matter. \normalsize}
 
@@ -58,7 +58,7 @@ This exam is 110 minutes (variable time per question) and closed-book. You are a
 
 \iftoggle{solutions}{\inred{
 \beqn
-\forall \epsilon > 0, ~~\limitn \prob{|\Xbar_n - \mu| \geq \epsilon} \leq \limitn \frac{\var{\Xbar_n}}{\epsilon} = \limitn \frac{\sigsq / n}{\epsilon} = 0 ~~\checkmark
+\forall \epsilon > 0, ~~\limitn \prob{|\Xbar_n - \mu| \geq \epsilon} \leq \limitn \frac{\var{\Xbar_n}}{\epsilon} = \limitn \frac{\sigsq / n}{\epsilon} = \frac{\sigsq}{\epsilon}\limitn \frac{1}{n} = 0 ~~\checkmark
 \eeqn
 }}{~\spc{8}}
 
@@ -84,7 +84,7 @@ By the WLLN, $\Xbar_n \convp \mu$, which means that as $n$ gets larger, all the 
 \iftoggle{solutions}{\inred{
 Using the fact given above, $S \convp \sigma$ by the CMT where $g(t) = \sqrt{t}$. Then, $\frac{\sigma}{S} \convp 1$ by the CMT where $g(t) = t/\sigma$.
 \beqn
-\frac{\Xbar_n - \mu}{\frac{S}{\sqrt{n}}} = \overbrace{\underbrace{\frac{\sigma}{S}}_{\text{see above}}\underbrace{\frac{\Xbar_n - \mu}{\frac{\sigma}{\sqrt{n}}}}_{\convd \stdnormnot ~~\text{by CLT}} ~\convd~ \stdnormnot}^{\text{by Slutsky's A theorem}}
+\frac{\Xbar_n - \mu}{\frac{S}{\sqrt{n}}} = \overbrace{\underbrace{\frac{\sigma}{S}}_{\text{see above}}\underbrace{\frac{\Xbar_n - \mu}{\frac{\sigma}{\sqrt{n}}}}_{\text{by the CLT this term}\convd \stdnormnot ~~} ~\convd~ \stdnormnot}^{\text{by Slutsky's A theorem}}
 \eeqn
 }}{~\spc{6}}
 
