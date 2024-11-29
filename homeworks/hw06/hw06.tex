@@ -165,7 +165,7 @@ NAME: \line(1,0){380}
 \intermediatesubproblem{Find the $\cprob{X = 1}{Y = 2}$.}\spc{4}
 
 
-\easysubproblem{If $X \sim \betanot{\alpha}{\beta}$ and $Y\,|\,X = x \sim \binomial{n}{x}$, find the PDF of $Y$.}\spc{6}
+\easysubproblem{If $X \sim \betanot{\alpha}{\beta}$ and $Y\,|\,X = x \sim \binomial{n}{x}$, find the PMF of $Y$.}\spc{6}
 
 
 \hardsubproblem{If $X \sim \gammanot{\alpha}{\beta}$ and $Y\,|\,X = x \sim \exponential{x}$, show that $Y \sim \text{Lomax}(\alpha, \beta)$. See the Lomax's Wikipedia article  by clicking \href{https://en.wikipedia.org/wiki/Lomax_distribution}{here}. Kernels always make it easier.}\spc{10}
@@ -174,26 +174,26 @@ NAME: \line(1,0){380}
 \end{enumerate}
 
 
-\problem{We will acquaint ourselves with finding modes of distributions.}
-
-\begin{enumerate}
-
-\intermediatesubproblem{Let $X \sim \text{Gamma}(\alpha, \beta)$. Find Mode[$X$]. Any restrictions on $\alpha, \beta$ besides the parameter space?}\spc{4}
-
-\intermediatesubproblem{Let $X \sim \text{InvGamma}(\alpha, \beta) := \frac{\beta^\alpha}{\Gamma\parens{\alpha}} x^{-\alpha - 1} e^{-\frac{\beta}{x}} \indic{x \in (0, \infty)}$. Find Mode[$X$]. Any restrictions on $\alpha, \beta$ besides the parameter space (which is idential to the Gamma distribution's parameter space)?}\spc{4}
-
-\intermediatesubproblem{Let $X \sim T_{k}$. Let $Y = \mu + \sigma X$ where $\mu \in \reals$ and $\sigma > 0$. We proved on the 2023 midterm II that $Y \sim T_{k}(\mu, \sigsq)$ with density:
-
-\beqn
-f_Y(y) = \frac{\Gamma\parens{\overtwo{k+1}}}{\sqrt{\pi k \sigsq} \Gamma\parens{\overtwo{k}}} \tothepow{1 + \frac{(y-\mu)^2}{k\sigsq}}{-\overtwo{k+1}}
-\eeqn
-
-which is called the \qu{location-scale T-distribution}. Find Mode[$Y$].
-}\spc{5}
-
-
-
-\end{enumerate}
+%\problem{We will acquaint ourselves with finding modes of distributions.}
+%
+%\begin{enumerate}
+%
+%\intermediatesubproblem{Let $X \sim \text{Gamma}(\alpha, \beta)$. Find Mode[$X$]. Any restrictions on $\alpha, \beta$ besides the parameter space?}\spc{4}
+%
+%\intermediatesubproblem{Let $X \sim \text{InvGamma}(\alpha, \beta) := \frac{\beta^\alpha}{\Gamma\parens{\alpha}} x^{-\alpha - 1} e^{-\frac{\beta}{x}} \indic{x \in (0, \infty)}$. Find Mode[$X$]. Any restrictions on $\alpha, \beta$ besides the parameter space (which is idential to the Gamma distribution's parameter space)?}\spc{4}
+%
+%\intermediatesubproblem{Let $X \sim T_{k}$. Let $Y = \mu + \sigma X$ where $\mu \in \reals$ and $\sigma > 0$. We proved on the 2023 midterm II that $Y \sim T_{k}(\mu, \sigsq)$ with density:
+%
+%\beqn
+%f_Y(y) = \frac{\Gamma\parens{\overtwo{k+1}}}{\sqrt{\pi k \sigsq} \Gamma\parens{\overtwo{k}}} \tothepow{1 + \frac{(y-\mu)^2}{k\sigsq}}{-\overtwo{k+1}}
+%\eeqn
+%
+%which is called the \qu{location-scale T-distribution}. Find Mode[$Y$].
+%}\spc{5}
+%
+%
+%
+%\end{enumerate}
 
 \section*{Solution for the Binomial CDF question}
 
