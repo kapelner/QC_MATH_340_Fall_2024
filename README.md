@@ -9,7 +9,7 @@ My lecture notes are scanned in as PDF files contributed by myself and are found
 
 ## Homeworks
 
-* Homework 7 [(download)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw07/hw07.pdf?raw=true) [(view)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw07/hw07.pdf) (due 12/13)
+* Homework 7 [(download)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw07/hw07.pdf?raw=true) [(view)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw07/hw07.pdf) (due 12/14)
 * Homework 6 [(download)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw06/hw06.pdf?raw=true) [(view)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw06/hw06.pdf) (due 11/25)
 * Homework 5 [(download)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw05/hw05.pdf?raw=true) [(view)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw05/hw05.pdf) (due 11/11)
 * Homework 4 [(download)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw04/hw04.pdf?raw=true) [(view)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/homeworks/hw04/hw04.pdf) (due 10/27)
@@ -22,7 +22,7 @@ My lecture notes are scanned in as PDF files contributed by myself and are found
 
 * Midterm I, Thurs, Sept 26 Midterm I [(exam)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/exams/midterm1/midterm1.pdf) [(solutions)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/exams/midterm1/midterm1_solutions.pdf)
 * Midterm II, Thurs, Nov 14 [(exam)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/exams/midterm2/midterm2.pdf) [(solutions)](https://github.com/kapelner/QC_MATH_340_Fall_2024/blob/main/exams/midterm2/midterm2_solutions.pdf)
-* Final, TBD
+* Final, Thurs, Dec 19 4-6PM KY 258
 
 ## Practice Exams
 
